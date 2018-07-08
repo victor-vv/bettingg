@@ -6,6 +6,10 @@
 .idea/
 out/
 local.properties
+*.class
+*.jar
+*.lst
+*/target/
 
 # Generic Android ignores #
 ###########################
