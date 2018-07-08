@@ -7,7 +7,6 @@ import com.bettingg.core.service.TeamService;
 public class Application {
 
     public static void main(String[] args) {
-        System.out.println("Hibernate tutorial");
 
         TeamService teamService = new TeamService(new TeamDao());
         for (Team team : teamService.getCurrentTeams()) {
